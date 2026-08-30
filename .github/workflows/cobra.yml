@@ -1,0 +1,36 @@
+name: cobra
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+concurrency:
+  group: cobra
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Gera o SVG da contribuição
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/cobra-claro.svg?color_snake=%2328518C&color_dots=%23E3E3DB,%23CFCFC6,%237FB98C,%235A8C68,%233F6B4A
+            dist/cobra-escuro.svg?color_snake=%2385ACE9&color_dots=%2315161A,%2332353B,%234A6B52,%23639370,%237FB98C
+
+      - name: Publica na branch output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

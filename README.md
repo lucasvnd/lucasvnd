@@ -8,6 +8,13 @@
 
 <a href="https://lucasvnd.github.io"><img alt="portfólio" src="https://img.shields.io/badge/portf%C3%B3lio-lucasvnd.github.io-28518C?style=flat-square&labelColor=1A1D21"></a> <a href="https://www.linkedin.com/in/lucas-nishimura"><img alt="linkedin" src="https://img.shields.io/badge/LinkedIn-lucas--nishimura-28518C?style=flat-square&labelColor=1A1D21&logo=linkedin&logoColor=white"></a> <img alt="local" src="https://img.shields.io/badge/S%C3%A3o%20Paulo-Brasil-3F6B4A?style=flat-square&labelColor=1A1D21">
 
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucasvnd/lucasvnd/output/cobra-escuro.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lucasvnd/lucasvnd/output/cobra-claro.svg">
+  <img alt="contribuicoes do ultimo ano" src="https://raw.githubusercontent.com/lucasvnd/lucasvnd/output/cobra-claro.svg" width="100%">
+</picture>
+
 </div>
 
 ## Olá 👋
