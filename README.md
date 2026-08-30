@@ -28,12 +28,6 @@ I am Lucas, a Cyber Security and AI Specialist. Seventeen years in enterprise IT
 - 💬 Ask me about **Entra ID**, **IAM**, **ISO 27001**, **NIST CSF 2.0** and AI-assisted development
 - 📫 [LinkedIn](https://www.linkedin.com/in/lucas-nishimura) or [lucasvnd.github.io](https://lucasvnd.github.io)
 
-## 🔒 Why the repositories are private
-
-Almost everything here is client work. The code stays closed because that is the deal: no source, no credentials, no client data leaves the engagement. The contribution graph above is the only trace of it, and it is anonymous by design.
-
-So the way to judge the work is the architecture, not the diff. Every system below has its decision record written up in plain language at [lucasvnd.github.io](https://lucasvnd.github.io/#sistemas), with no code and no client data in it.
-
 ## 🗂️ Systems in production
 
 | System | What it does |
@@ -43,9 +37,9 @@ So the way to judge the work is the architecture, not the diff. Every system bel
 | CW Editor | AI-assisted editing with mandatory human review |
 | GeoSampa | Territorial intelligence over public data from São Paulo |
 
-## 📂 What is open
+## 📂 Portfolio
 
-**[lucasvnd.github.io](https://github.com/lucasvnd/lucasvnd.github.io)** is my portfolio, written by hand:
+**[lucasvnd.github.io](https://github.com/lucasvnd/lucasvnd.github.io)**, written by hand:
 
 - Genuinely bilingual. Every string is a `{ pt, en }` pair in one file, and translating half of it breaks CI.
 - No build step and not one dependency. The browser loads the files as they are.
