@@ -1,4 +1,4 @@
-name: cobra
+name: snake
 
 on:
   schedule:
@@ -8,26 +8,25 @@ on:
     branches: [main]
 
 concurrency:
-  group: cobra
+  group: snake
   cancel-in-progress: true
 
 permissions:
   contents: write
 
 jobs:
-  gerar:
+  generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Gera o SVG da contribuição
+      - name: Render the contribution graph
         uses: Platane/snk@v3
-        id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/cobra-claro.svg?color_snake=%2328518C&color_dots=%23E3E3DB,%23CFCFC6,%237FB98C,%235A8C68,%233F6B4A
-            dist/cobra-escuro.svg?color_snake=%2385ACE9&color_dots=%2315161A,%2332353B,%234A6B52,%23639370,%237FB98C
+            dist/snake-light.svg?color_snake=%2328518C&color_dots=%23E3E3DB,%23CFCFC6,%237FB98C,%235A8C68,%233F6B4A
+            dist/snake-dark.svg?color_snake=%2385ACE9&color_dots=%2315161A,%2332353B,%234A6B52,%23639370,%237FB98C
 
-      - name: Publica na branch output
+      - name: Publish to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output

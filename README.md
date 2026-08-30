@@ -10,9 +10,9 @@
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucasvnd/lucasvnd/output/cobra-escuro.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lucasvnd/lucasvnd/output/cobra-claro.svg">
-  <img alt="contributions over the last year" src="https://raw.githubusercontent.com/lucasvnd/lucasvnd/output/cobra-claro.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucasvnd/lucasvnd/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lucasvnd/lucasvnd/output/snake-light.svg">
+  <img alt="contributions over the last year" src="https://raw.githubusercontent.com/lucasvnd/lucasvnd/output/snake-light.svg" width="100%">
 </picture>
 
 </div>
