@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Lucas Nishimura. Segurança, automação e desenvolvimento assistido por IA.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Lucas Nishimura. Security, automation and AI-assisted development.">
   <rect width="1200" height="300" fill="#EDEDE7"/>
   <rect x="0" y="0" width="1200" height="300" fill="none" stroke="#E3E3DB" stroke-width="2"/>
   <rect x="28" y="28" width="1144" height="244" fill="none" stroke="#CFCFC6" stroke-width="1"/>
 
   <g font-family="ui-monospace, 'Cascadia Mono', Consolas, Menlo, monospace">
     <text x="80" y="86" font-size="14" letter-spacing="5" fill="#8A8F97" opacity="0">
-      DOSSIÊ / GITHUB
+      DOSSIER / GITHUB
       <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.7s" fill="freeze"/>
     </text>
   </g>
@@ -20,7 +20,7 @@
   </line>
 
   <g font-family="ui-monospace, 'Cascadia Mono', Consolas, Menlo, monospace" opacity="0">
-    <text x="80" y="236" font-size="19" fill="#5C6169">segurança da informação  ·  automação  ·  IA aplicada</text>
+    <text x="80" y="236" font-size="19" fill="#5C6169">information security  ·  automation  ·  applied AI</text>
     <animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.9s" fill="freeze"/>
   </g>
 
