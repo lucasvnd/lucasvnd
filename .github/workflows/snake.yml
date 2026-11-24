@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   generate:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, lucasvnd]
     steps:
       - name: Render the contribution graph
         uses: Platane/snk@v3
